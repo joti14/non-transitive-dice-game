@@ -10,4 +10,4 @@ class DiceParser:
             dice.append(Dice([int(v) for v in values]))  # Create a Dice object
         if len(dice) < 3:
             raise ValueError("At least 3 dice are required.")  # Ensure at least 3 dice
-        return dice
+        return dice 
